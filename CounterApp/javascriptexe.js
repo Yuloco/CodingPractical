@@ -17,8 +17,8 @@ function decrease(){
 
 function save(){
     if (num>0){
-        let lave = num + "\n";
-        prescore.textContent += lave;
+        let lave = num + "-";
+        prescore += lave;
         al.innerText = 0;
         num = 0
     }
